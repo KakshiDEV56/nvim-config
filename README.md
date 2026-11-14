@@ -14,7 +14,7 @@ This repository is meant to be copied into `~/.config/nvim` so you can reuse the
 
 ## Showcase
 
-What the setup looks like in day-to-day use. All screenshots live under [`public/`](./public/).
+
 
 ### Editor layout (splits + file tree + bottom terminal)
 
@@ -111,17 +111,11 @@ mv ~/.local/state/nvim ~/.local/state/nvim.bak 2>/dev/null
 
 ### 2. Clone this configuration
 
-Replace the URL with your fork or the repo that hosts this config:
-
 ```bash
-git clone <YOUR_REPO_URL> ~/.config/nvim
+git clone https://github.com/KakshiDEV56/nvim-config.git ~/.config/nvim
 ```
 
-Example if you publish it under your GitHub account:
-
-```bash
-git clone https://github.com/<username>/<repo>.git ~/.config/nvim
-```
+Repo: https://github.com/KakshiDEV56/nvim-config
 
 If you already have the files locally (for example this machine), ensure at least these exist under `~/.config/nvim`:
 
@@ -500,19 +494,6 @@ Neotest: https://github.com/nvim-neotest/neotest
 | neotest | https://github.com/nvim-neotest/neotest |
 | neotest-go | https://github.com/nvim-neotest/neotest-go |
 | overseer.nvim | https://github.com/stevearc/overseer.nvim |
-
----
-
-## Screenshots reference
-
-| File | Shows |
-|------|--------|
-| [`public/nvim.png`](./public/nvim.png) | Startup dashboard |
-| [`public/splitWindow.png`](./public/splitWindow.png) | Splits, NvimTree, bottom terminal |
-| [`public/fuzzyfinder.png`](./public/fuzzyfinder.png) | Telescope find files |
-| [`public/floatingTerminal.png`](./public/floatingTerminal.png) | Floating terminal |
-| [`public/lazygit.png`](./public/lazygit.png) | LazyGit TUI |
-| [`public/lazydocker.png`](./public/lazydocker.png) | LazyDocker TUI |
 
 ---
 
